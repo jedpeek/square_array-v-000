@@ -1,5 +1,5 @@
 def square_array(array)
   square = []
-  square = square.push(array.each{|x| x*x})
+  square = array.each{|x| x*x, array.collect}
   return square
 end
